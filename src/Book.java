@@ -86,10 +86,10 @@ class Author {
     }
 }
 
-class Main {
+class Main1 {
     public static void main(String[] args) {
         Author author = new Author("Таджик", "Мужик", "serega2009pro@mail.ru");
-        Book book = new Book("На даче)", author, 1869);
+        Book book = new Book("На даче)", author, 1918);
 
         System.out.println("Автор книги:");
         System.out.println(author);
